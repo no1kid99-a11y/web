@@ -1,10 +1,5 @@
 # PetCare Home – Website chăm sóc thú cưng tại nhà
 
-PHP 8.2+ thuần hướng đối tượng, mô hình MVC tự xây (không framework), MySQL/MariaDB qua PDO, TailwindCSS + Alpine.js + Chart.js (CDN).
-Phân công nhóm: [PHAN_CONG.md](PHAN_CONG.md).
-
-Triển khai theo đề cương đã tối ưu (đã bỏ chức năng ngày nghỉ): 13 bảng, 3 vai trò đăng nhập (Khách hàng, Nhân viên, Quản trị viên), chống trùng lịch 4 lớp, phân quyền RBAC + theo chủ sở hữu, quản lý người dùng, nhật ký hoạt động và **ảnh cập nhật trực tiếp** trong lúc nhân viên làm. Không có chức năng thanh toán (khách trả tại nhà).
-
 ## 1. Hướng dẫn cài đặt và chạy web
 
 Hướng dẫn viết cho **Windows + XAMPP**; Laragon và macOS có ghi chú riêng ở từng bước.
@@ -100,7 +95,7 @@ Vào **`http://localhost/petcare/public/`**. Gõ `http://localhost/petcare/` cũ
 | Nhân viên | an.le@petcare.vn, binh.pham@petcare.vn, chau.hoang@petcare.vn | Staff@123 | Lịch làm việc |
 | Khách hàng | ha.do@gmail.com, huy.vu@gmail.com, lananh.bui@gmail.com | Khach@123 | Lịch hẹn của tôi |
 
-**Chụp ảnh bằng điện thoại thật (khuyên dùng khi demo):**
+**Chụp ảnh bằng điện thoại thật:**
 1. Điện thoại và laptop bắt chung một mạng Wi-Fi.
 2. Bật Apache và MySQL trong XAMPP. Xem IP của laptop bằng lệnh `ipconfig` (dòng **IPv4 Address** của Wi-Fi, ví dụ `192.168.1.15`). Nếu Windows hỏi tường lửa cho Apache, chọn **Allow**.
 3. Trên điện thoại mở `http://<IP laptop>/petcare/public`, đăng nhập `an.le@petcare.vn`, mở đơn PC-009, bấm **Chụp ảnh**: điện thoại mở thẳng camera sau.
