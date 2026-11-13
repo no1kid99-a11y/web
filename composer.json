@@ -1,0 +1,8 @@
+{
+    "name": "petcare/home-pet-care",
+    "description": "Website chăm sóc thú cưng tại nhà - PHP thuần OOP, MVC tự xây",
+    "type": "project",
+    "require": { "php": ">=8.2", "ext-pdo": "*", "ext-fileinfo": "*" },
+    "autoload": { "psr-4": { "Core\\": "core/", "App\\": "app/" } },
+    "scripts": { "test": "php tests/run.php", "install-db": "php database/install.php" }
+}
