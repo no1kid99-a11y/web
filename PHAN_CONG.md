@@ -107,11 +107,7 @@ Hai vấn đề chính của đề cương có người phụ trách riêng: **t
 - **Phần 1 → Phần 3:** khóa nhân viên dùng `Booking::futureHoldingForStaff()`.
 - **Tất cả → Phần 1:** `Auth::can()`, `Database`, layout chung; **tất cả → Phần 4:** `ActivityLogger::log()`.
 
-## Thứ tự làm
 
-1. Phần 1 xong lõi MVC và `schema.sql` trong 1–2 ngày đầu, merge sớm.
-2. Phần 3 làm `BookingService` ngay sau đó (Phần 2 và 4 phụ thuộc vào nó).
-3. Ba phần còn lại làm song song.
 
 ## Quy ước Git
 
