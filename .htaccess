@@ -1,0 +1,7 @@
+# Chặn truy cập trực tiếp mã nguồn khi đặt cả dự án trong htdocs; chỉ thư mục public được phục vụ.
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(app|config|core|database|storage|tests)(/|$) - [F,L]
+    RewriteRule ^(composer\.json|README\.md|\.gitignore)$ - [F,L]
+</IfModule>

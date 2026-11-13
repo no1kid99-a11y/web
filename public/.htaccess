@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+
+# Chuyển mọi request không phải file thật về index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

@@ -1,0 +1,8 @@
+config/config.local.php
+storage/*.sqlite
+public/uploads/pets/*
+!public/uploads/pets/.gitkeep
+!public/uploads/pets/.htaccess
+storage/booking_photos/*
+!storage/booking_photos/.gitkeep
+.DS_Store
